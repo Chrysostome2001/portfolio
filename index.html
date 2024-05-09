@@ -37,18 +37,18 @@
             <h3>Et je suis un <span class="multiple-text"></span></h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, odio a temporibus neque ipsa aliquid laudantium non voluptatem doloremque soluta?</p>
             <div class="social-media">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://web.facebook.com"><i class="fa-brands fa-facebook"></i></a>
                 <a href=""><i class="fa-brands fa-x-twitter"></i></a>
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 <a href=""><i class="fa-brands fa-whatsapp"></i></a>
                 <a href=""><i class="fa-solid fa-mobile"></i></a>
             </div>
-            <a href="CURRICULUM VITAE.pdf" class="btn">Download CV</a>
+            <a href="pdf/CURRICULUM VITAE.pdf" class="btn">Télécharger mon CV</a>
         </div>
 
         <div class="home-img">
-            <img src="amd_2-wallpaper-1920x1080.jpg" alt="">
+            <img src="photo/amd_2-wallpaper-1920x1080.jpg" alt="">
         </div>
     </section>
 
@@ -57,7 +57,7 @@
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="amazing_space_2-wallpaper-3840x2160.jpg" alt="">
+            <img src="photo/amazing_space_2-wallpaper-3840x2160.jpg" alt="">
         </div>
 
         <div class="about-content">
@@ -113,7 +113,7 @@
         <div class="portfolio-container">
             <a href="../portfolio/page/boostrap/index.html">
                 <div class="portfolio-box">
-                    <img src="abstract_aurora-wallpaper-2560x1600.jpg" alt="">
+                    <img src="photo/abstract_aurora-wallpaper-2560x1600.jpg" alt="">
                     <div class="portfolio-layer">
                         <h4>Page web</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -124,7 +124,7 @@
 
             <a href="../portfolio/Algorithme/index.html">
                 <div class="portfolio-box">
-                    <img src="abstract_aurora-wallpaper-2560x1600.jpg" alt="">
+                    <img src="photo/abstract_aurora-wallpaper-2560x1600.jpg" alt="">
                     <div class="portfolio-layer">
                         <h4>Algorithme D'Euclide</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -133,9 +133,9 @@
                 </div>
             </a>
 
-            <a href="document.pdf">
+            <a href="pdf/document.pdf">
                 <div class="portfolio-box">
-                    <img src="abstract_aurora-wallpaper-2560x1600.jpg" alt="">
+                    <img src="photo/abstract_aurora-wallpaper-2560x1600.jpg" alt="">
                     <div class="portfolio-layer">
                         <h4>Theoreme de Hahn-Banach et application</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -144,22 +144,22 @@
                 </div>
             </a>
 
-            <a href="../portfolio/page/boostrap/index.html">
+            <a href="https://github.com/Chrysostome2001/CycleC-">
                 <div class="portfolio-box">
-                    <img src="abstract_aurora-wallpaper-2560x1600.jpg" alt="">
+                    <img src="photo/abstract_aurora-wallpaper-2560x1600.jpg" alt="">
                     <div class="portfolio-layer">
-                        <h4>Page web</h4>
+                        <h4>Projet Cycle</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         <i class="fa-solid fa-share-from-square"></i>
                     </div>
                 </div>
             </a>
 
-            <a href="../portfolio/page/boostrap/index.html">
+            <a href="AzerType/index.html">
                 <div class="portfolio-box">
-                    <img src="abstract_aurora-wallpaper-2560x1600.jpg" alt="">
+                    <img src="photo/abstract_aurora-wallpaper-2560x1600.jpg" alt="">
                     <div class="portfolio-layer">
-                        <h4>Page web</h4>
+                        <h4>Jeu de saisie de mots</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         <i class="fa-solid fa-share-from-square"></i>
                     </div>
@@ -167,7 +167,7 @@
             </a>
             <a href="../portfolio/page/boostrap/index.html">
                 <div class="portfolio-box">
-                    <img src="abstract_aurora-wallpaper-2560x1600.jpg" alt="">
+                    <img src="photo/abstract_aurora-wallpaper-2560x1600.jpg" alt="">
                     <div class="portfolio-layer">
                         <h4>Page web</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -184,18 +184,18 @@
     <section class="contact" id="contact">
         <h2 class="heading"><span>Contacter </span>moi</h2>
         
-        <form action="#">
+        <form novalidate>
             <div class="input-box">
-                <input type="text" placeholder="Nom">
-                <input type="email" placeholder="Adresse email">
+                <input type="text" placeholder="Nom" id="nom" checked>
+                <input type="email" placeholder="Adresse email" id="email">
             </div>
 
             <div class="input-box">
-                <input type="number" placeholder="Numero de telephone">
-                <input type="text" placeholder="Sujet mail">
+                <input type="tel" placeholder="Numero de telephone" id="numero">
+                <input type="text" placeholder="Sujet mail" id="sujet">
             </div>
 
-            <textarea name="" id="" col="30" rows="10" placeholder="Ecrivez votre message"></textarea>
+            <textarea name="" id="message" col="30" rows="10" placeholder="Ecrivez votre message"></textarea>
             <input type="submit" value="Envoyez le message"  class="btn">
         </form>
     </section>
